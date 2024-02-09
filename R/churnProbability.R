@@ -4,5 +4,3 @@ getChurnProbability <- function(dataset, customerId) {
   }
   return(dataset[CustomerId == customerId, ]$ChurnProbability)
 }
-
-usethis::use_testthat()
